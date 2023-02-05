@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { register } from 'redux/auth/operations';
+import { registre } from 'redux/auth/operations';
 
 import { FormStyled, InputStyled, Submit } from './Forms.styled';
 export const RegisterForm = () => {
@@ -9,7 +9,7 @@ export const RegisterForm = () => {
     event.preventDefault();
     const form = event.currentTarget;
     dispath(
-      register({
+      registre({
         name: form.elements.name.value,
         email: form.elements.email.value,
         password: form.elements.password.value,
@@ -19,7 +19,7 @@ export const RegisterForm = () => {
   };
 
   return (
-    <FormStyled onSubmit={handleSubmit} autoComplete="on">
+    <FormStyled onSubmit={handleSubmit} autoComplete="off">
       <label>
         Username <br />
         <InputStyled type="text" name="name" />

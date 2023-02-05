@@ -18,7 +18,7 @@ export const LoginForm = () => {
   };
 
   return (
-    <FormStyled onSubmit={handleSubmit} autoComplete="on">
+    <FormStyled onSubmit={handleSubmit}  autoComplete="off">
       <label>
         Email <br />
         <InputStyled type="email" name="email" />

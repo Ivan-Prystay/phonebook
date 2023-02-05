@@ -8,7 +8,6 @@ import bgImage from '../images/business-2846221_1280.jpg';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  padding: 30px;
   background-color: grey;
   background-image: url(${bgImage});
   background-size: cover;

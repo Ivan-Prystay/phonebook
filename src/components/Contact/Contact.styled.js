@@ -6,6 +6,7 @@ export const ContactItem = styled.li`
   display: flex;
   font-size: 18px;
   justify-content: space-between;
+  padding-bottom: 8px;
 `;
 
 export const Item = styled.div``;
@@ -15,18 +16,18 @@ export const DeleteContact = styled.button`
   cursor: pointer;
   outline: none;
   border: none;
-  background-color: #e2e2e2f1;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
 
-  &:active,
-  &:hover {
-    background-color: #467bcad2;
+  &:hover,
+  :focus {
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     outline: none;
     border: none;
   }
-  &:active {
+  &.active {
     color: red;
-    background-color: #e2e2e2f1;
+    background-color: rgba(255, 255, 255, 1);
   }
 `;

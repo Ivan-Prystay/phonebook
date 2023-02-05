@@ -1,8 +1,17 @@
 import styled from 'styled-components';
 
+export const Wraper = styled.div`
+  background: rgba(0, 0, 0, 0.5);
+`;
+
 export const ListContact = styled.ul`
   padding: 20px;
-  background: rgba(0, 0, 0, 0.5);
   color: white;
-  //width: 95vw;
+  margin: 0 auto;
+  width: 500px;
+  @media (max-width: 600px) {
+    & {
+      width: 300px;
+    }
+  }
 `;

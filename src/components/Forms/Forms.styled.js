@@ -15,4 +15,16 @@ export const InputStyled = styled.input`
   width: fit-content;
   margin-bottom: 24px;
   background: rgba(255, 255, 255, 0.5);
+  &:hover,
+  :focus {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+`;
+
+export const Submit = styled.button`
+  &:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
 `;

@@ -1,7 +1,5 @@
-import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-
-export const StyledLink = styled(NavLink)`
+export const LogOut = styled.button`
   padding: 10px;
   border: 1px solid black;
   border-radius: 15px;
@@ -9,7 +7,7 @@ export const StyledLink = styled(NavLink)`
   color: white;
 
   &:hover,
-  &.active {
+  :active {
     background: rgba(255, 255, 255, 0.5);
     color: black;
   }

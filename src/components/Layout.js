@@ -2,9 +2,7 @@ import { Outlet } from 'react-router-dom';
 import { AppBar } from './AppBar/AppBar';
 import { Suspense } from 'react';
 import { Toaster } from 'react-hot-toast';
-
 import bgImage from '../images/business-2846221_1280.jpg';
-
 import styled from 'styled-components';
 
 const Container = styled.div`

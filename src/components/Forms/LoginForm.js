@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
-import { FormStyled, InputStyled } from './Forms.styled';
+import { FormStyled, InputStyled, Submit } from './Forms.styled';
 
 export const LoginForm = () => {
   const dispath = useDispatch();
@@ -28,7 +28,7 @@ export const LoginForm = () => {
         <br />
         <InputStyled type="password" name="password" />
       </label>
-      <button type="submit">Log In</button>
+      <Submit type="submit">Log In</Submit>
     </FormStyled>
   );
 };

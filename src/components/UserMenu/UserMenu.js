@@ -7,7 +7,7 @@ export function UserMenu() {
   const { user } = useAuth();
 
   return (
-    <div>
+    <div style={{ border: '2px solid tomato' }}>
       <p>Welcome, {user.name}</p>
       <button type="button" onClick={() => dispath(logOut())}>
         Logout

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FormContact = styled.form`
+export const FormLogin = styled.form`
   border: 1px solid;
   display: flex;
   flex-direction: column;
@@ -11,14 +11,11 @@ export const FormContact = styled.form`
   margin: 0 auto;
   color: white;
 `;
-export const NameInput = styled.input`
+export const EmailInput = styled.input`
   width: fit-content;
   margin-bottom: 24px;
 `;
-export const TelInput = styled.input`
+export const PasswordInput = styled.input`
   width: fit-content;
   margin-bottom: 24px;
-`;
-export const AddContact = styled.input`
-  width: fit-content;
 `;

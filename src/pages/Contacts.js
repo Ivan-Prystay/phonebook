@@ -6,12 +6,11 @@ import { ContactForm } from 'components/Forms/ContactForm';
 import { ContactList } from 'components/ContactList/ContactList';
 import { Filter } from 'components/Filter/Filter';
 import { fetchContacts } from 'redux/contacts/operations';
-
+import { Loader } from 'components/Loader/Loader';
 export default function Contacts() {
   const dispath = useDispatch();
   const isLoading = useSelector(selectIsLoading);
   const contacts = useSelector(selectContacts);
-
   useEffect(() => {
     dispath(fetchContacts());
   }, [dispath]);
@@ -21,9 +20,8 @@ export default function Contacts() {
       <Helmet>
         <title>Your contacts</title>
       </Helmet>
-
       <ContactForm />
-      {isLoading && <div>'Request in progress...'</div>}
+      {isLoading && <Loader />}
       {contacts.length > 0 && (
         <>
           <Filter />

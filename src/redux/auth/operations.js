@@ -24,6 +24,7 @@ export const registre = createAsyncThunk(
       const response = await axios.post('/users/signup', credentials);
       setAuthHeader(response.data.token);
       toast.success('Congratulations, you have successfully registered!');
+      return response.data;
     } catch (error) {
       toast.error(error.message);
       return thunkAPI.rejectWithValue(error.message);

@@ -1,6 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
+export const Wraper = styled.div`
+  display: flex;
+  column-gap: 10px;
+`;
+
 export const StyledLink = styled(NavLink)`
   padding: 10px;
   border: 1px solid black;

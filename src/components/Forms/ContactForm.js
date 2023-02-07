@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from '../../redux/contacts/operations';
 import { selectContacts } from '../../redux/contacts/selectors';
 import { FormStyled, InputStyled } from './Forms.styled';
+import { toast } from 'react-hot-toast';
 
 export function ContactForm() {
   const contacts = useSelector(selectContacts);
@@ -17,8 +18,14 @@ export function ContactForm() {
           item.name.toLowerCase() === form.elements.name.value.toLowerCase()
       )
     ) {
-      alert(
+      toast.error(
         `A contact with the name ${form.elements.name.value} already exists.`
+      );
+      return;
+    }
+    if (contacts.find(item => item.number === form.elements.phone.value)) {
+      toast.error(
+        `A contact with the number ${form.elements.phone.value} already exists.`
       );
       return;
     }
@@ -26,7 +33,10 @@ export function ContactForm() {
       addContact({
         name: form.elements.name.value,
         number: form.elements.phone.value,
-      })
+      }),
+      toast.success(
+        `A contact with the name ${form.elements.name.value} has been successfully added.`
+      )
     );
 
     form.reset();

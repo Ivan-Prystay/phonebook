@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.ceb8c742.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.6eba91d9.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.c4363d71.js",
     "static/js/266.dd4835a1.chunk.js": "/goit-react-hw-08-phonebook/static/js/266.dd4835a1.chunk.js",
     "static/js/370.880e4987.chunk.js": "/goit-react-hw-08-phonebook/static/js/370.880e4987.chunk.js",
     "static/js/768.cfe0c421.chunk.js": "/goit-react-hw-08-phonebook/static/js/768.cfe0c421.chunk.js",
-    "static/js/756.94c7b3a5.chunk.js": "/goit-react-hw-08-phonebook/static/js/756.94c7b3a5.chunk.js",
+    "static/js/756.2d8911ed.chunk.js": "/goit-react-hw-08-phonebook/static/js/756.2d8911ed.chunk.js",
     "static/js/270.7d435519.chunk.js": "/goit-react-hw-08-phonebook/static/js/270.7d435519.chunk.js",
     "static/media/business-2846221_1280.jpg": "/goit-react-hw-08-phonebook/static/media/business-2846221_1280.f92c2d1f313fa7201c33.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.ceb8c742.css.map": "/goit-react-hw-08-phonebook/static/css/main.ceb8c742.css.map",
-    "main.6eba91d9.js.map": "/goit-react-hw-08-phonebook/static/js/main.6eba91d9.js.map",
+    "main.c4363d71.js.map": "/goit-react-hw-08-phonebook/static/js/main.c4363d71.js.map",
     "266.dd4835a1.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/266.dd4835a1.chunk.js.map",
     "370.880e4987.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/370.880e4987.chunk.js.map",
     "768.cfe0c421.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/768.cfe0c421.chunk.js.map",
-    "756.94c7b3a5.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/756.94c7b3a5.chunk.js.map",
+    "756.2d8911ed.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/756.2d8911ed.chunk.js.map",
     "270.7d435519.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/270.7d435519.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ceb8c742.css",
-    "static/js/main.6eba91d9.js"
+    "static/js/main.c4363d71.js"
   ]
 }
